@@ -3,7 +3,6 @@ experimenting with soil moisture sensor
 This project uses a soil moisture sensor with an Arduino board to measure the soil moisture level. The moisture level is indicated by three LEDs, making it easy to visually monitor the soil's condition.
 
 ## Overview
-
 This project reads the analog value from a soil moisture sensor and categorizes it into three moisture levels:
 - **Dry Soil**: LED 1 (Red) lights up.
 - **Moderate Soil**: LED 2 (White) lights up.
@@ -21,7 +20,7 @@ The readings are also printed to the Serial Monitor for debugging or further ana
 - Jumper wires
 
 ## Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)
+![Circuit Diagram](circuit_diagram.png)
 
 1. **Soil Moisture Sensor Connections**:
    - Connect the **VCC** pin of the sensor to the 5V pin of the Arduino.
